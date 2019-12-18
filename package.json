@@ -1,0 +1,33 @@
+{
+	"name": "multicolor-pigeon-theme",
+	"displayName": "Multicolor Pigeon Theme",
+	"description": "That's theme which I use in the evening",
+	"icon": "img/logo.png",
+	"version": "0.0.1",
+	"publisher": "js2me",
+	"keywords": [
+		"React",
+		"jsx",
+		"typescript",
+		"node",
+		"tsx",
+		"contrast"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/js2me/multicolor-pigeon-theme.git"
+	},
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"categories": [ "Themes" ],
+	"contributes": {
+		"themes": [
+			{
+				"label": "MulticolorPigeon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/multicolor-pigeon.json"
+			}
+		]
+	}
+}
